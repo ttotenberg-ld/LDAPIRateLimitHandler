@@ -37,7 +37,7 @@ def checkRateLimit(method, url, apikey, body):
     :param body: The body of the request. This can be blank - as {}.
 
     This will make your call, and check the rate limit. If the current rate limit is below the CALL_THRESHOLD, 
-    it will retry three times before throwing an error and giving up.
+    it will retry a number of times (defined by defaultTries) before throwing an error and giving up.
     '''
 
     defaultTries = 5
