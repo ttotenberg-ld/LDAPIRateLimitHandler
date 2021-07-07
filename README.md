@@ -9,7 +9,7 @@ Using this wrapper will do a few things in this order:
 1. Checks the remaining rate limit after that call
     1. Via the ['X-Ratelimit-Route-Remaining'] response header
 1. Compares the remaining rate limit against a threshold
-1. If the threshold is high enough, it returns the API response
+1. If the remaining call limit is high enough, it returns the API response
 1. If the remaining rate limit is below the threshold, it does the following:
     1. Gets the time of the next rate limit reset via the ['X-Ratelimit-Reset'] response header
     1. Sleeps until that rate limit reset time
