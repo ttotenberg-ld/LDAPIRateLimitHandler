@@ -38,4 +38,4 @@ The body of your request. For a blank body, pass in `{}`
 ## Note
 You should not blindly copy + paste this wrapper for your use. The way it is currently written, it may successfully execute your call multiple times if below the rate limit threshold. So, there's a risk of accidentally repeating actions that should not be repeated. Maybe that doesn't matter for your usage, but you should modify this wrapper in your own environment as needed.
 
-Questions? Comments? Feedback? Hopes? Dreams? Let me know! :) Hope this helps.
+Questions? Comments? Suggestions? Hopes? Dreams? Let me know! :) I threw this together quickly as a little side project, so it's certainly not perfect. Hope it helps!
